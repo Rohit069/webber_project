@@ -342,7 +342,7 @@
   margin-bottom: 3rem;
 }
 
-.pad200 .p-text2 {
+.pad200 .p-text22 {
   color: #fff;
   font-size: 1.3rem;
   font-weight: 200;
@@ -736,6 +736,27 @@
   color: #ff755e;
 }
 
+.last-div {
+  border-top: #f4f4f4 0.1rem solid;
+  margin: 3rem 0;
+}
+
+.fix-last {
+  max-width: 83rem;
+}
+
+.last-1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  color: #546c78;
+}
+
+.last-1 a {
+  font-weight: bold;
+  color: #ff755e;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 1200px) {
   .nav-item1 {
     padding: 0.5rem 3rem !important;
@@ -900,9 +921,6 @@
   .box4 {
     width: 100%;
   }
-  .p-top {
-    padding-top: 2rem;
-  }
   .fix-dis {
     width: 100%;
     display: -ms-grid;
@@ -924,6 +942,12 @@
   }
   .padleft20 {
     padding: 0 4rem;
+  }
+  .pad-md-top {
+    padding-top: 2rem;
+  }
+  .textmdcenter {
+    text-align: center;
   }
 }
 
@@ -990,6 +1014,9 @@
   }
   .padleft20 {
     padding: 0 2rem;
+  }
+  .last-1 {
+    text-align: left !important;
   }
 }
 /*# sourceMappingURL=app.component.css.map */
